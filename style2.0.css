@@ -1,0 +1,578 @@
+body{
+background: #b22222;
+}
+#load{
+text-align: center;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background: black;
+height: 100%;
+width: 100%;
+position: fixed;
+z-index: 99999;
+}
+h1{
+color: #16e0bf;
+text-shadow: #16e0bf 0px 0px 10px,
+             #16e0bf 0px 0px 20px,
+             #16e0bf 0px 0px 30px;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+transform: translate(0%,500%);
+letter-spacing: 80px;
+}
+
+.moo{
+color: transparent;
+top: 40%;
+left: 17%;
+position: fixed;
+border: 2px solid #16e0bf;
+width: 60%;
+height: 3%;
+border-radius: 20px 20px 20px 20px;
+background-color: #16e0bf;
+box-shadow: #16e0bf 0px 0px 10px,
+            #16e0bf 0px 0px 20px,
+            #16e0bf 0px 0px 30px;
+animation: magic 5s 1;
+}
+.heading{
+top: 39%;
+left: 16.5%;
+position: fixed;
+border: 2px solid #16e0bf;
+width: 61%;
+height: 4%;
+border-radius: 20px 20px 20px 20px;
+z-index: 1;
+}
+@keyframes magic{
+0%{
+width: 5%;
+}
+80%{
+width: 60%;
+}
+}
+
+.heading{
+color: transparent;
+top: 39%;
+left: 16.5%;
+position: fixed;
+border: 2px solid #16e0bf;
+width: 61%;
+height: 4%;
+border-radius: 20px 20px 20px 20px;
+z-index: 1;
+}
+ul{
+margin-left: 700px;
+margin-top: 50px;
+}
+
+li{
+display: inline-block;
+}
+
+a{
+color: grey;
+font-size: 25px;
+font-weight: bold;
+border-radius: 5px 5px 5px 5px;
+padding: 2px 4px;
+text-decoration: none;
+letter-spacing: 2px;
+margin-left: 20px;
+transition: 0.4s;
+}
+a:hover{
+color:  #16e0bf;
+text-shadow: #16e0bf 0px 0px 5px,
+             #16e0bf 0px 0px 10px,
+             #16e0bf 0px 0px 15px;
+background: grey;
+font-size: 28px;
+box-shadow: black 0px 0px 2px,
+            black 0px 0px 4px,
+            black 0px 0px 8px;
+}
+#my_link_id{
+margin-left: 20px;
+color: grey;
+font-size: 25px;
+font-weight: bold;
+background: transparent;
+text-decoration: none;
+letter-spacing: 2px;
+transition: 0.4s;
+}
+#my_link_id:hover{
+color: #16e0bf;
+text-shadow: #16e0bf 0px 0px 5px,
+              #16e0bf 0px 0px 10px,
+              #16e0bf 0px 0px 15px;
+background: grey;
+font-size: 28px;
+box-shadow: black 0px 0px 2px,
+            black 0px 0px 4px,
+            black 0px 0px 8px;
+}
+
+#my_Profile_id{
+color: grey;
+font-size: 25px;
+font-weight: bold;
+background: transparent;
+border-radius: 5px 5px 5px 5px;
+text-decoration: none;
+letter-spacing: 2px;
+transition: 0.4s;
+}
+#my_Profile_id:hover{
+color: #16e0bf;
+text-shadow: #16e0bf 0px 0px 5px,
+              #16e0bf 0px 0px 10px,
+              #16e0bf 0px 0px 15px;
+background: grey;
+font-size: 28px;
+box-shadow: black 0px 0px 2px,
+            black 0px 0px 4px,
+            black 0px 0px 8px;
+}
+.images{
+margin-left: 10px;
+margin-top: 20px;
+height: 45%;
+width: 24%;
+}
+.images2{
+height: 45%;
+width: 24%;
+margin-top: 20px;
+}
+.images3{
+height: 45%;
+width: 24%;
+margin-top: 20px;
+}
+.images4{
+height: 45%;
+width: 24%;
+margin-top: 20px;
+}
+
+.low{
+transform: translate(-40%,50%);
+font-size: 35px;
+color: #16e0bf;
+animation: ghost 1s 1;
+animation-delay: 4s;
+}
+@keyframes ghost{
+0%{
+transform: translate(-40%,50%);
+}
+35%{
+transform: translate(-40%,10%);
+}
+80%{
+transform: translate(-40%,50%);
+}
+}
+
+.pain{
+color: #16e0bf;
+font-size: 35px;
+transform: translate(-35%,-110%);
+animation: day-dream 1s 1;
+animation-delay: 4.3s;
+}
+@keyframes day-dream{
+0%{
+transform: translate(-35%,-110%);
+}
+35%{
+transform: translate(-35%,-150%);
+}
+80%{
+transform: translate(-35%,-110%);
+}
+}
+
+h3{
+color: #16e0bf;
+font-size: 35px;
+transform: translate(16%,-300%);
+text-shadow: #16e0bf 0px 0px 12px,
+             #16e0bf 0px 0px 27px,
+             #16e0bf 0px 0px 38px;
+animation: he-ll-o 1s 1;
+animation-delay: 4.6s;
+}
+@keyframes he-ll-o{
+0%{
+transform: translate(16%,-300%);
+}
+35%{
+transform: translate(16%,-350%);
+}
+80%{
+transform: translate(16%,-300%);
+}
+}
+
+h4{
+color: #16e0bf;
+font-size: 35px;
+transform: translate(21%,-517%);
+text-shadow: #16e0bf 0px 0px 12px,
+             #16e0bf 0px 0px 27px,
+             #16e0bf 0px 0px 38px;
+animation: try-me 1s 1;
+animation-delay: 4.9s;
+}
+@keyframes try-me{
+0%{
+transform: translate(21%,-517%);
+}
+35%{
+transform: translate(21%,-567%);
+}
+80%{
+transform: translate(21%,-517%);
+}
+}
+
+h5{
+color: #16e0bf;
+font-size: 35px;
+transform: translate(26%,-763%);
+text-shadow: #16e0bf 0px 0px 12px,
+             #16e0bf 0px 0px 27px,
+             #16e0bf 0px 0px 38px;
+animation: too-much 1s 1;
+animation-delay: 5.2s;
+}
+@keyframes too-much{
+0%{
+transform: translate(26%,-763%);
+}
+35%{
+transform: translate(26%,-813%);
+}
+80%{
+transform: translate(26%,-763%);
+}
+}
+
+h6{
+color: #16e0bf;
+font-size: 35px;
+transform: translate(31%,-1060%);
+text-shadow: #16e0bf 0px 0px 12px,
+             #16e0bf 0px 0px 27px,
+             #16e0bf 0px 0px 38px;
+animation: Justin 1s 1;
+animation-delay: 5.5s;
+}
+@keyframes Justin{
+0%{
+transform: translate(31%,-1060%);
+}
+35%{
+transform: translate(31%,-1110%);
+}
+80%{
+transform: translate(31%,-1060%);
+}
+}
+.believers{
+font-weight: bold;
+color: #16e0bf;
+font-size: 35px;
+transform: translate(37%,-1360%);
+text-shadow: #16e0bf 0px 0px 12px,
+             #16e0bf 0px 0px 27px,
+             #16e0bf 0px 0px 38px;
+animation: your-turn 1s 1;
+animation-delay: 5.8s;
+}
+@keyframes your-turn{
+0%{
+transform: translate(37%,-1360%);
+}
+35%{
+transform: translate(37%,-1410%);
+}
+80%{
+transform: translate(37%,-1360%);
+}
+}
+
+.walker{
+font-weight: bold;
+color: #16e0bf;
+font-size: 35px;
+transform: translate(42%,-1550%);
+text-shadow: #16e0bf 0px 0px 12px,
+             #16e0bf 0px 0px 27px,
+             #16e0bf 0px 0px 38px;
+animation: lauv 1s 1;
+animation-delay: 6.1s;
+}
+@keyframes lauv{
+0%{
+transform: translate(42%,-1550%);
+}
+35%{
+transform: translate(42%,-1600%);
+}
+80%{
+transform: translate(42%,-1550%);
+}
+}
+
+.forever{
+font-weight: bold;
+color: #16e0bf;
+font-size: 35px;
+transform: translate(47%,-1740%);
+text-shadow: #16e0bf 0px 0px 12px,
+             #16e0bf 0px 0px 27px,
+             #16e0bf 0px 0px 38px;
+animation: Anne 1s 1;
+animation-delay: 6.4s;
+}
+@keyframes Anne{
+0%{
+transform: translate(47%,-1740%);
+}
+35%{
+transform: translate(47%,-1790%);
+}
+80%{
+transform: translate(47%,-1740%);
+}
+}
+
+.for{
+font-weight: bold;
+color: #16e0bf;
+font-size: 35px;
+transform: translate(52%,-1930%);
+text-shadow: #16e0bf 0px 0px 12px,
+             #16e0bf 0px 0px 27px,
+             #16e0bf 0px 0px 38px;
+animation: Marshmello 1s 1;
+animation-delay: 6.7s;
+}
+@keyframes Marshmello{
+0%{
+transform: translate(52%,-1930%);
+}
+35%{
+transform: translate(52%,-1980%);
+}
+80%{
+transform: translate(52%,-1930%);
+}
+}
+
+.alan{
+font-weight: bold;
+color: #16e0bf;
+font-size: 35px;
+transform: translate(57%,-2115%);
+text-shadow: #16e0bf 0px 0px 12px,
+             #16e0bf 0px 0px 27px,
+             #16e0bf 0px 0px 38px;
+animation: mellogang 1s 1;
+animation-delay: 7s;
+}
+@keyframes mellogang{
+0%{
+transform: translate(57%,-2115%);
+}
+35%{
+transform: translate(57%,-2165%);
+}
+80%{
+transform: translate(57%,-2115%);
+}
+}
+
+.holy{
+font-weight: bold;
+color: #16e0bf;
+font-size: 35px;
+transform: translate(62%,-2305%);
+text-shadow: #16e0bf 0px 0px 12px,
+             #16e0bf 0px 0px 27px,
+             #16e0bf 0px 0px 38px;
+animation: tony 1s 1;
+animation-delay: 7.3s;
+}
+@keyframes tony{
+0%{
+transform: translate(62%,-2305%);
+}
+35%{
+transform: translate(62%,-2355%);
+}
+80%{
+transform: translate(62%,-2305%);
+}
+}
+
+.friends{
+font-weight: bold;
+color: #16e0bf;
+font-size: 35px;
+transform: translate(67%,-2490%);
+text-shadow: #16e0bf 0px 0px 12px,
+             #16e0bf 0px 0px 27px,
+             #16e0bf 0px 0px 38px;
+animation: mello 1s 1;
+animation-delay: 7.6s;
+}
+@keyframes mello{
+0%{
+transform: translate(67%,-2490%);
+}
+35%{
+transform: translate(67%,-2540%);
+}
+80%{
+transform: translate(67%,-2490%);
+}
+}
+
+.peaches{
+font-weight: bold;
+color: #16e0bf;
+font-size: 35px;
+transform: translate(72%,-2680%);
+text-shadow: #16e0bf 0px 0px 12px,
+             #16e0bf 0px 0px 27px,
+             #16e0bf 0px 0px 38px;
+animation: apple-mac 1s 1;
+animation-delay: 7.9s;
+}
+@keyframes apple-mac{
+0%{
+transform: translate(72%,-2680%);
+}
+35%{
+transform: translate(72%,-2730%);
+}
+80%{
+transform: translate(72%,-2680%);
+}
+}
+
+.farru{
+font-weight: bold;
+color: #16e0bf;
+font-size: 35px;
+transform: translate(77%,-2863%);
+text-shadow: #16e0bf 0px 0px 12px,
+             #16e0bf 0px 0px 27px,
+             #16e0bf 0px 0px 38px;
+animation: mac-book 1s 1;
+animation-delay: 8.2s;
+}
+@keyframes mac-book{
+0%{
+transform: translate(77%,-2863%);
+}
+35%{
+transform: translate(77%,-2913%);
+}
+80%{
+transform: translate(77%,-2863%);
+}
+}
+
+.anyone{
+font-weight: bold;
+color: #16e0bf;
+font-size: 35px;
+transform: translate(82%,-3050%);
+text-shadow: #16e0bf 0px 0px 12px,
+             #16e0bf 0px 0px 27px,
+             #16e0bf 0px 0px 38px;
+animation: wtf 1s 1;
+animation-delay: 8.5s;
+}
+@keyframes wtf{
+0%{
+transform: translate(82%,-3050%);
+}
+35%{
+transform: translate(82%,-3100%);
+}
+80%{
+transform: translate(82%,-3050%);
+}
+}
+
+.florida{
+font-weight: bold;
+color: #16e0bf;
+font-size: 35px;
+transform: translate(87%,-3240%);
+text-shadow: #16e0bf 0px 0px 12px,
+             #16e0bf 0px 0px 27px,
+             #16e0bf 0px 0px 38px;
+animation: lamborghini 1s 1;
+animation-delay: 8.8s;
+}
+@keyframes lamborghini{
+0%{
+transform: translate(87%,-3240%);
+}
+35%{
+transform: translate(87%,-3290%);
+}
+80%{
+transform: translate(87%,-3240%);
+}
+}
+
+.wolves{
+font-weight: bold;
+color: #16e0bf;
+font-size: 35px;
+transform: translate(92%,-3430%);
+text-shadow: #16e0bf 0px 0px 12px,
+             #16e0bf 0px 0px 27px,
+             #16e0bf 0px 0px 38px;
+animation: favourito 1s 1;
+animation-delay: 9.1s;
+}
+@keyframes  favourito{
+0%{
+transform: translate(92%,-3430%);
+}
+35%{
+transform: translate(92%,-3480%);
+}
+80%{
+transform: translate(92%,-3430%);
+}
+}
+
+
+.impact{
+font-size:25px;
+color: #16e0bf;
+text-shadow: #16e0bf 0px 0px 20px,
+             #16e0bf 0px 0px 40px,
+             #16e0bf 0px 0px 70px;
+font-weight: bold;
+transform: translate(3%,-4500%);
+}

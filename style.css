@@ -1,0 +1,136 @@
+body{
+background-image: url('https://mike42.me/blog/wp-content/uploads/2017/12/stars-rounded.png');
+}
+ul{
+margin-left: 800px;
+}
+li{
+display: inline-block;
+}
+h3{
+margin-left: 15px;
+color:  grey;
+font-size: 25px;
+font-weight: bold;
+background: transparent;
+text-decoration: none;
+letter-spacing: 2px;
+padding: 5px 10px;
+}
+
+a{
+color: grey;
+font-size: 25px;
+font-weight: bold;
+background: transparent;
+text-decoration: none;
+letter-spacing: 2px;
+padding: 5px 10px;
+border-radius: 10px 10px 10px 10px;
+transition: 0.4s;
+}
+a:hover{
+color: #16e0bf;
+text-shadow: #16e0bf 0px 0px 5px,
+             #16e0bf 0px 0px 10px,
+             #16e0bf 0px 0px 15px;
+font-size: 28px;
+background: grey;
+box-shadow: black 0px 0px 2px,
+            black 0px 0px 4px,
+            black 0px 0px 8px;
+}
+
+
+#my_Profile_id{
+margin-left: 15px;
+color: grey;
+font-size: 25px;
+font-weight: bold;
+background: transparent;
+text-decoration: none;
+letter-spacing: 2px;
+padding: 5px 10px;
+border-radius: 10px 10px 10px 10px;
+transition: 0.5s;
+}
+
+#my_Profile_id:hover{
+color: #16e0bf;
+text-shadow: #16e0bf 0px 0px 5px,
+             #16e0bf 0px 0px 10px,
+             #16e0bf 0px 0px 15px;
+background: grey;
+box-shadow: black 0px 0px 2px,
+            black 0px 0px 4px,
+            black 0px 0px 8px;
+}
+
+h1{
+color:red;
+background-color:lightgreen;
+box-shadow: 0 0 20px  lightgreen,
+             0 0 40px  lightgreen,
+             0 0 70px  lightgreen;
+font-size:45px;
+font-weight:bolder;
+margin:10px
+}
+h2{
+color:white;
+background-color:purple;
+box-shadow: 0 0 20px  purple,
+             0 0 40px  purple,
+             0 0 70px  purple;
+font-size:28px;
+font-weight:bolder;
+margin:10px;
+margin-top: 30px;
+}
+.images{
+border: 2px solid red;
+margin-left:10px;
+width:25%;
+height:32%;
+display:inline-block;
+}
+
+p{
+color: red;
+font-size:18px;
+font-style:oblique;
+font-weight:bolder;
+line-height:29px;
+margin-left:10px;
+} 
+.para{
+width:72%;
+display:inline-block;
+}
+.para1{
+width:65%;
+display: inline-block;
+}
+.images2{
+border: 2px solid red;
+margin-left: 10px;
+width:33%;
+height:52%;
+display: inline-block;
+}
+.football-teams{
+display: inline-block;
+width: 25%;
+height: 33%;
+border: 2px solid red;
+margin-left: 10px;
+}
+.division{
+display: inline-block;
+width: 69%
+}
+.Mellogang{
+width: 3%;
+transform: translate(-3200%,-6130%);
+border-radius: 100% 100% 100% 100%;
+}

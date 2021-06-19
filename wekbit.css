@@ -1,0 +1,272 @@
+body{
+background-image: url("C:/Users/Parv Jain/Pictures/Saved Pictures/football ground.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.Youngsquad{
+width: 3%;
+position: fixed;
+top: 2%;
+left: 1%;
+border-radius: 100% 100% 100% 100%;
+transition: 0.2s;
+}
+.Youngsquad:hover{
+border: 2px solid white;
+}
+
+ul{
+margin-left: 800px;
+margin-top: 40px;
+position: fixed;
+z-index: 2;
+}
+
+li{
+display: inline-block;
+}
+
+a{
+color:  grey;
+font-size: 25px;
+font-weight: bold;
+border-radius: 5px 5px 5px 5px;
+padding: 2px 4px;
+text-decoration: none;
+letter-spacing: 2px;
+margin-left: 20px;
+transition: 0.4s;
+}
+a:hover{
+color: #16e0bf;
+text-shadow: #16e0bf 0px 0px 5px,
+             #16e0bf 0px 0px 10px,
+             #16e0bf 0px 0px 15px;
+background: grey;
+font-size: 28px;
+box-shadow: black 0px 0px 2px,
+            black 0px 0px 4px,
+            black 0px 0px 8px;
+}
+
+#my_link_id{
+margin-left: 20px;
+color: grey;
+font-size: 25px;
+font-weight: bold;
+background: transparent;
+text-decoration: none;
+letter-spacing: 2px;
+transition: 0.4s;
+}
+#my_link_id:hover{
+color: #16e0bf;
+text-shadow: #16e0bf 0px 0px 5px,
+              #16e0bf 0px 0px 10px,
+              #16e0bf 0px 0px 15px;
+background: grey;
+font-size: 28px;
+box-shadow: black 0px 0px 2px,
+            black 0px 0px 4px,
+            black 0px 0px 8px;
+}
+
+h1{
+margin-left: 20px;
+color: grey;
+font-size: 25px;
+font-weight: bold;
+background: transparent;
+border-radius: 5px 5px 5px 5px;
+text-decoration: none;
+letter-spacing: 2px;
+}
+
+p{
+color: white;
+font-size: 40px;
+border: 5px solid white;
+border-radius: 50px 0px 50px 0px;
+background: rgb(0,0,0,0.3);
+filter: blur;
+width: 60%;
+padding: 15px 30px;
+margin-left: 300px;
+margin-top: 200px;
+position: fixed;
+z-index: 1;
+animation: my-profile 7s 1;
+}
+
+@keyframes my-profile{
+0%{
+color: transparent;
+border: 5px solid transparent;
+
+}
+35%{
+color: white;
+border: 5px solid white;
+}
+85%{
+color: white;
+border: 5px solid white;
+}
+100%{
+color: white;
+border: 5px solid white;
+}
+ }
+
+.true{
+position: fixed;
+z-index: 1;
+}
+
+.info{
+opacity: 1;
+transform: translate(280%,700%);
+width: 3%;
+border-radius: 100% 100% 100% 100%;
+animation: clear 3s 1;
+}
+@keyframes clear{
+0%{
+opacity: 0.1;
+}
+35%{
+opacity: 0.5;
+}
+80%{
+opacity: 1;
+}
+}
+.yup{
+font-weight: normal;
+transform: translate(18%,160%);
+font-size: 20px;
+color: transparent;
+border: 2px solid transparent;
+width: 15%;
+height: 30%;
+padding: 1px 2px;
+background: transparent;
+border-radius: 20px 0px 20px 0px;
+transition: 1s;
+}
+.yup:hover{
+transform: translate(18%,130%);
+color: white;
+border: 2px solid red;
+background: red;
+box-shadow: black 0px 0px 5px,
+            black 0px 0px 10px,
+            black 0px 0px 15px;
+}
+
+.Jonas{
+font-size: 20px;
+font-weight: normal;
+color: transparent;
+border: 1px solid transparent;
+width: 15%;
+height: 30%;
+background: transparent;
+transform: translate(255%,20%);
+border-radius: 20px 0px 20px 0px;
+padding: 1px 2px;
+transition: 1s;
+}
+.Jonas:hover{
+transform: translate(255%,-10%);
+color: black;
+background: pink;
+border: 1px solid pink;
+box-shadow: black 0px 0px 5px,
+            black 0px 0px 10px,
+            black 0px 0px 15px;
+}
+
+.OT{
+opacity: 1;
+transform: translate(1500%,-105%);
+width: 3%;
+border-radius: 100% 100% 100% 100%;
+animation: rover 3s 1;
+}
+@keyframes rover{
+0%{
+opacity: 0.1;
+}
+35%{
+opacity: 0.5;
+}
+80%{
+opacity: 1;
+}
+}
+.tower{
+transform: translate(515%,-130%);
+font-size: 20px;
+font-weight: normal;
+color: transparent;
+border: 1px solid transparent;
+background: transparent;
+width: 15%;
+height: 30%;
+border-radius: 20px 0px 20px 0px;
+padding: 1px 2px;
+transition: 1s;
+}
+.tower:hover{
+transform: translate(515%,-160%);
+color: brown;
+background: #fcc603;
+box-shadow: black 0px 0px 5px,
+            black 0px 0px 10px,
+            black 0px 0px 15px;
+}
+
+
+.thapa{
+opacity: 1;
+width: 3%;
+transform: translate(2840%,-820%);
+border-radius: 100% 100% 100% 100%;
+animation: mover 3s 1;
+}
+@keyframes mover{
+0%{
+opacity: 0.1;
+}
+35%{
+opacity: 0.5;
+}
+80%{
+opacity: 1;
+}
+}
+
+.images{
+position: fixed;
+top: -1%;
+left: -1%;
+background: black;
+height: 101%;
+width: 101%;
+opacity: 0.5;
+margin: 0px;
+animation: photo 3s 1;
+}
+@keyframes photo{
+0%{
+opacity: 0.1;
+}
+35%{
+opacity: 0.3;
+}
+80%{
+opacity: 0.5;
+}
+}
