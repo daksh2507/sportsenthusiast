@@ -5,10 +5,12 @@ background: black;
 width: 3%;
 transform: translate(5%,20%);
 border-radius: 100% 100% 100% 100%;
+display: flex;
 }
 
 ul{
 margin-left: 800px;
+display: flex;
 }
 li{
 display: inline-block;
@@ -22,6 +24,7 @@ padding: 2px 4px;
 text-decoration: none;
 letter-spacing: 2px;
 margin-left: 20px;
+margin-top: -1.5px;
 transition: 0.5s;
 }
 
@@ -98,6 +101,7 @@ box-shadow: black 0px 0px 2px,
   position: relative;
   background: black;
   animation: text 3s 1;
+  display: flex;
 }
 .dj2{
   font-size: 30px;
@@ -106,6 +110,7 @@ box-shadow: black 0px 0px 2px,
                0 0 30px lightgreen,
                0 0 60px lightgreen;
   font-style: oblique;
+  display: flex;
 }
 @keyframes text {
   0%{
@@ -163,6 +168,7 @@ width: 170px;
 height: 120px;
 margin-left: 740px;
 transform: translate(-50%,400%);
+display: flex;
 }
 #my_font_id{
   color: lightgreen;
@@ -172,6 +178,7 @@ transform: translate(-50%,400%);
                0 0 30px lightgreen,
                0 0 60px lightgreen;
 animation: heading 15s infinite;
+display: flex;
 }
 @keyframes heading{
 0%{
@@ -202,6 +209,7 @@ text-shadow: 0 0 10px lightgreen,
                0 0 30px lightgreen,
                0 0 60px lightgreen;
 animation: paragraph 15s infinite;
+display: flex;
 }
 @keyframes paragraph{
 0%{
